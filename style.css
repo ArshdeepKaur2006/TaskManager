@@ -1,0 +1,108 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(114, 128, 123);
+    height: 800px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    font-size: 2.3rem;
+}
+
+.form input {
+    height: 80px;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    height: 80px;
+    width: 100px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+.info {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 480px;
+    width: 800px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    height: 50px;
+    width: 800px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 430px;
+    width: 200px;
+    border-right: 2px solid black;
+}
+
+.box2 {
+    height: 430px;
+    width: 398px;
+    border-right: 2px solid black;
+}
+
+.box3 {
+    height: 430px;
+    width: 190px;
+}
+
+.h3 {
+    height: 50px;
+    width: 100%;
+}
+
+.info1 {
+    height: 400px;
+    width: 100%;
+}
+
+.info2 {
+    height: 400px;
+    width: 100%;
+}
+
+.info3 {
+    height: 400px;
+    width: 100%;
+}

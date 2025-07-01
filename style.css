@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+}
+body{
+    height: 800px;
+    width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    height: 100%;
+    width: 100%
+}
+h1{
+    padding-top: 10px;
+    padding-left: 45%;
+    height: 8%;
+    width:100%; 
+}
+.title{
+     padding-top: 10px;
+    padding-left: 7%;
+    height: 10%;
+    width:100%; 
+}
+.desc{
+     padding-top: 10px;
+    padding-left: 7%;
+    height: 10%;
+    width:100%;
+}
+
+input{
+    padding-top: 5px;
+    height:50px;
+    width:80%;
+}
+.btns{
+    padding-top: 10px;
+    padding-left: 7%;
+    height: 50px;
+    width:100%; 
+}
+.btn1 , .btn2{
+  background-color: rgb(64, 64, 234);
+  color: white;
+  height: 40px;
+  width:6%;
+  padding-top: 10px
+}
+.area{
+    padding-top: 10px;
+    padding-left: 7%;
+}
+th{
+    height:40px;
+    width:15%;
+    font-size: 1.2rem;
+}
+td{
+    font-size: 1.1rem;
+    height:30px;
+    width:15%;
+    padding-left: 10.3%;
+}
+.btnTable{
+  background-color: rgb(64, 64, 234);
+  color: white;
+  height: 20px;
+  width:50%;
+}

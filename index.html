@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TODOs List</h1>
+        <div  class="title">Title<br><input id="title" type="text" placeholder="Add an item to the list"></div>
+        <div  class="desc">Description<br><input id="desc" type="text" placeholder="Add some dsecription"></div>
+        <div class="btns">
+            <button id="add" class="btn1">Add to list</button>
+            <button id="clear" class="btn2" onclick="clearSt()">Clear list</button>
+        </div>
+        <div class="area">
+            <h1>Your Items</h1>
+            <table class="table">
+                <tr>
+                    <th>SNo</th>
+                    <th>Item Title</th>
+                    <th>Item Description</th>
+                    <th>Actions</th>
+                </tr>
+                <tbody id="tableBody">
+                 <tr>
+                    <!-- <td scope="row">1</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td><button class="btnTable" >Delete</button></td> -->
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
